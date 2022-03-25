@@ -11,6 +11,7 @@ body {
 /*COMMONS*/
 .big-container {
     max-width: 1300px;
+    margin: auto;
 }
 .standard-container {
     max-width: 1080px;
@@ -27,6 +28,14 @@ body {
     color: #fff;
 }
 /*HEADER*/
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #fff;
+}
 nav.nav-header ul li, .nav-header, .left-bar, .right-bar {
     display: inline-block;
 }
@@ -51,4 +60,29 @@ img.logo, nav ul li {
     font-size: 12px;
     line-height: 12px;
     margin-right: 10px;
+}
+/*MAIN*/
+.hero-section {
+    background-color: #b4d0e6;
+}
+.big-container h1 {
+    font-size: 74px;
+    padding-top: 10%;
+    position: relative;
+}
+.hero-img {
+    width: 60%;
+    position: absolute;
+}
+.hero-text {
+    width: 30%;
+}
+.hero-img, .hero-text {
+    float: left;
+    padding-top: 2%;
+}
+.btn-hero {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
