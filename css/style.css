@@ -65,10 +65,12 @@ img.logo, nav ul li {
 .hero-section {
     background-color: #b4d0e6;
 }
+.big-container {
+    position: relative;
+}
 .big-container h1 {
     font-size: 74px;
     padding-top: 10%;
-    position: relative;
 }
 .hero-img {
     width: 60%;
