@@ -21,16 +21,21 @@ body {
     clear: both;
 }
 .btn {
-
+    padding: 5px 10px;
+    background-color: #0066ff;
+    border: none;
+    color: #fff;
 }
 /*HEADER*/
-header nav ul li, header nav, .left-bar, .right-bar {
+nav.nav-header ul li, .nav-header, .left-bar, .right-bar {
     display: inline-block;
 }
 a {
     text-decoration: none;
+    color: #000;
+    font-size: 12px;
 }
-header img, header nav, header button {
+img.logo, nav.nav-header, .btn {
     vertical-align: middle;
 }
 .left-bar, .right-bar {
@@ -39,5 +44,11 @@ header img, header nav, header button {
 .right-bar {
     text-align: right;
 }
-
-
+img.logo, nav ul li {
+    padding: 10px 20px;
+}
+.btn-header {
+    font-size: 12px;
+    line-height: 12px;
+    margin-right: 10px;
+}
