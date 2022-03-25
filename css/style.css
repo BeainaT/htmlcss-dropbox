@@ -21,5 +21,23 @@ body {
     clear: both;
 }
 .btn {
-    
+
 }
+/*HEADER*/
+header nav ul li, header nav, .left-bar, .right-bar {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+header img, header nav, header button {
+    vertical-align: middle;
+}
+.left-bar, .right-bar {
+    width: calc(50% - 4px);
+}
+.right-bar {
+    text-align: right;
+}
+
+
