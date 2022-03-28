@@ -35,6 +35,9 @@ section {
     color: #fff;
     line-height: 14px;
 }
+section.business-plan .col, section.business-plan .col .top, section.business-plan .standard-container .row-large, section.business-plan .row-large .top, section.faq dl.faq-list, section.faq dl.faq-list dt {
+    border-color: #cecece;
+}
 /*TYPO*/
 .col, .row-large p, .btn {
     font-size: 14px;
@@ -133,9 +136,6 @@ label {
 }
 .col .top, .row-large .top {
     border-bottom: 1px solid;
-}
-.col, .col .top, .standard-container .row-large, .row-large .top {
-    border-color: #cecece;
 }
 .col.col-standard {
     margin: 0 45px;
@@ -256,7 +256,7 @@ ul.check i {
 }
 .description {
     width: 50%;
-    min-height: 26vw;
+    height: 26vw;
     background-color: #f5f5f5;
     padding: 40px;
 }
@@ -322,4 +322,20 @@ ul.check i {
     width: 30%;
     background-color: #fff;
     color: #000;
+}
+/*FAQ*/
+dl.faq-list {
+    border-top: 1px solid;
+    line-height: 4em;
+    margin-top: 50px;
+}
+dl.faq-list dt {
+    border-bottom: 1px solid;
+}
+/* dl.faq-list, dl.faq-list dt {
+    border-color: #dcdcde;
+} */
+dl.faq-list h5 {
+    display: inline-block;
+    padding-right: 45%;
 }
