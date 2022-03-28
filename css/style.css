@@ -8,9 +8,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 /*COMMONS*/
-section {
+section, footer {
     width: 100%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 .hero-section, .enjoy-section {
     background-color: #b4d0e6;
@@ -37,6 +37,9 @@ section {
 }
 section.business-plan .col, section.business-plan .col .top, section.business-plan .standard-container .row-large, section.business-plan .row-large .top, section.faq dl.faq-list, section.faq dl.faq-list dt {
     border-color: #cecece;
+}
+.nav-header a, .footer-top a {
+    text-decoration: none;
 }
 /*TYPO*/
 .col, .row-large p, .btn {
@@ -83,7 +86,6 @@ img.logo, nav ul li {
     padding: 10px 20px;
 }
 .nav-header a {
-    text-decoration: none;
     color: #000;
     font-size: 12px;
 }
@@ -259,6 +261,7 @@ ul.check i {
     height: 26vw;
     background-color: #f5f5f5;
     padding: 40px;
+    overflow: auto;
 }
 .description img {
     width: 15%;
@@ -328,14 +331,46 @@ dl.faq-list {
     border-top: 1px solid;
     line-height: 4em;
     margin-top: 50px;
+    padding-bottom: 10%;
 }
 dl.faq-list dt {
     border-bottom: 1px solid;
 }
-/* dl.faq-list, dl.faq-list dt {
-    border-color: #dcdcde;
-} */
 dl.faq-list h5 {
     display: inline-block;
     padding-right: 45%;
+}
+/*FOOTER*/
+footer {
+    background-color: #000;
+    color: #fff;
+}
+.footer-top {
+    float: left;
+    width: calc(100% / 5);
+}
+.footer-top nav ul li {
+    list-style: none;
+    padding: 1px 0;
+}
+.footer-top nav ul li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 0;
+}
+.footer-top nav {
+    padding-top: 1em;
+}
+.footer-lang {
+    width: 10%;
+    margin-top: 5em;
+    padding: 3em 0;
+    border-top: 1px solid #bfbfbf;
+}
+.footer-lang::after {
+    content: "\23F6";
+}
+.footer-lang::after, #lang {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
 }
