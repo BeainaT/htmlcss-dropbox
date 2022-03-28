@@ -12,6 +12,9 @@ section {
     width: 100%;
     padding-top: 10%;
 }
+.hero-section, .enjoy-section {
+    background-color: #b4d0e6;
+}
 .big-container {
     max-width: 1300px;
     margin: auto;
@@ -88,9 +91,6 @@ img.logo, nav ul li {
     margin-right: 10px;
 }
 /*MAIN*/
-.hero-section {
-    background-color: #b4d0e6;
-}
 .hero-img-box {
     width: 65%;
     
@@ -307,4 +307,19 @@ ul.check i {
 }
 .description p {
     padding: 20px 0;
+}
+/*ENJOY SECTION*/
+.enjoy h2 {
+    width: 50%;
+    float: left;
+    color: #61082b;
+    padding-bottom: 10%;
+}
+.enjoy .btn {
+    float: right;
+}
+.btn-enjoy {
+    width: 30%;
+    background-color: #fff;
+    color: #000;
 }
