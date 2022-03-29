@@ -368,7 +368,10 @@ dl.faq-list dt {
 }
 dl.faq-list h5 {
     display: inline-block;
-    /* padding-right: 45%; */
+}
+dl.faq-list dt i {
+    float: right;
+    padding: 1.5em;
 }
 /*FOOTER*/
 footer {
@@ -422,8 +425,4 @@ footer {
 }
 .fa-building::before {
     content: "\f1ad";
-}
-dl.faq-list dt i {
-    float: right;
-    padding: 1.5em;
 }
