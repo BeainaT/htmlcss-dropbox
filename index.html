@@ -22,8 +22,8 @@
                 <nav class="nav-header">
                     <ul>
                         <li><a href="#">Perchè Dropbox?</a></li>
-                        <li><a href="#">Funzioni</a></li>
-                        <li><a href="#">Piani e prezzi</a></li>
+                        <li><a href="#functions-link">Funzioni</a></li>
+                        <li><a href="#plans-price-link">Piani e prezzi</a></li>
                     </ul>
                 </nav>
             </div>
@@ -31,7 +31,7 @@
             <div class="right-bar">
                 <nav class="nav-header">
                     <ul>
-                        <li><a href="#">Supporto</a></li>
+                        <li><a href="#faq-link">Supporto</a></li>
                         <li><a href="#">Contatta l'ufficio vendite</a></li>
                         <li><a href="#">Accedi</a></li>
                     </ul>
@@ -64,7 +64,7 @@
             </section>
             <!--/section title and hero-->
             <!--business plans-->
-            <section class="business-plan">
+            <section id="plans-price-link" class="business-plan">
                 <div class="standard-container">
                     <h2>Trova il piano Dropbox Business che fa per te</h2>
                     <input type="radio" name="monthly-paymeny" id="monthly"><label>Fatturazione mensile</label>
@@ -75,16 +75,16 @@
                             <!--first coloumn-->
                             <div class="col professional">
                                 <div class="top">
-                                    <i class="fa-regular fa-user"></i> singolo
+                                    <span class="fa-user">singolo</span>
                                 </div>
                                 <div class="corps">
                                     <h3>Professional</h3>
                                     <div id="price">19,99 €</div>
                                     <div id="term">/mese</div>
                                     <ul class="offer">
-                                        <li><i class="fa-regular fa-user"></i>1 utente</li>
-                                        <li><i class="fa-regular fa-folder"></i>3 TB di spazio di archiviazione sicuro</i></li>
-                                        <li><i class="fa-solid fa-pencil"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                        <li class="fa-user">1 utente</li>
+                                        <li class="fa-folder">3 TB di spazio di archiviazione sicuro</li>
+                                        <li class="fa-pencil">Funzioni di produttività premium e condivisione file semplice e sicura</li>
                                     </ul>
                                     <button class="btn btn-corps">Prova gratis per 30 giorni</button>
                                     <div id="buy-now">oppure <a href="#">acquista ora</a></div>
@@ -103,16 +103,16 @@
                             <!--second coloumn-->
                             <div class="col col-standard">
                                 <div class="top">
-                                    <i class="fa-regular fa-building"></i> team
+                                    <span class="fa-building">team</span>
                                 </div>
                                 <div class="corps">
                                     <h3>Standard</h3>
                                     <div id="price">19,99 €</div>
                                     <div id="term">/utente /mese, a partire da 3 utenti</div>
                                     <ul class="offer">
-                                        <li><i class="fa-solid fa-user-plus"></i>1 utente</li>
-                                        <li><i class="fa-regular fa-folder"></i>3 TB di spazio di archiviazione sicuro</i></li>
-                                        <li><i class="fa-regular fa-smile"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                        <li class="fa-user-plus">1 utente</li>
+                                        <li class="fa-folder">3 TB di spazio di archiviazione sicuro</li>
+                                        <li class="fa-smile">Funzioni di produttività premium e condivisione file semplice e sicura</li>
                                     </ul>                                    
                                     <button class="btn btn-corps">Prova gratis per 30 giorni</button>
                                     <div id="buy-now">oppure <a href="#">acquista ora</a></div>
@@ -132,16 +132,16 @@
                             <!--third coloumn-->
                             <div class="col advanced">
                                 <div class="top">
-                                    <i class="fa-regular fa-building"></i> Team
+                                    <span class="fa-building">Team</span>
                                 </div>
                                 <div class="corps">
                                     <h3>Advanced</h3>
                                     <div id="price">19,99 €</div>
                                     <div id="term">/utente /mese, a partire da 3 utenti</div>
                                     <ul class="offer">
-                                        <li><i class="fa-solid fa-user-plus"></i>1 utente</li>
-                                        <li><i class="fa-regular fa-smile"></i>3 TB di spazio di archiviazione sicuro</i></li>
-                                        <li><i class="fa-solid fa-pencil"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                        <li class="fa-user-plus">1 utente</li>
+                                        <li class="fa-smile">3 TB di spazio di archiviazione sicuro</li>
+                                        <li class="fa-pencil">Funzioni di produttività premium e condivisione file semplice e sicura</li>
                                     </ul>
                                     <button class="btn btn-corps">Prova gratis per 30 giorni</button>
                                     <div id="buy-now">oppure <a href="#">acquista ora</a></div>
@@ -162,7 +162,9 @@
                     </div>
                     <!--/coloumns container-->
                     <div class="row-large clearfix">
-                        <div class="top"><i class="fa-regular fa-building"></i> Team</div>
+                        <div class="top">
+                            <span class="fa-building">Team</span>
+                        </div>
                         <div class="corps row-corps">
                             <h3>Enterprise</h3>
                             <h4>Contatta l'ufficio vendite per i prezzi</h4>
@@ -188,7 +190,7 @@
             </section>
             <!--/search partner-->
             <!--dropbox business coloumns-->
-            <section>
+            <section id="functions-link">
                 <div class="standard-container">
                     <h2>Esegui più operazioni con Dropbox Business</h2>
                     <div class="business-row clearfix">
@@ -292,10 +294,10 @@
             </section>
             <!--/enjoy dropbox-->
             <!--FAQ-->
-            <section class="faq">
+            <section id="faq-link" class="faq">
                 <div class="standard-container">
                     <h3>Domande frequenti</h3>
-                    <dl class="faq-list">
+                    <dl class="faq-list clearfix">
                         <dt><h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5><i class="fa-solid fa-chevron-down"></i></dt>
                         <dt><h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5><i class="fa-solid fa-chevron-down"></i></dt>
                         <dt><h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5><i class="fa-solid fa-chevron-down"></i></dt>
