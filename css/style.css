@@ -160,24 +160,37 @@ label {
 #term {
     color: #666a6d;
 }
-.corps ul li {
+.corps ul {
     list-style-type: none;
-    padding: 10px 0;
+    padding: 0;
 }
-
+.corps ul li {
+    padding-left: 2em;
+    padding-top: 1em;
+}
+ul.offer li i {
+    margin: 0 1em 0 -2em;
+}
 .corps ul.offer, #buy-now {
     padding: 30px 0;
 }
 .col .corps a, #partners-link {
     color: #007aff;
 }
-ul.check i {
-    color: #286fdb;
-}
 .corps hr {
     width: 20%;
     background-color: #cecece;
     margin-bottom: 30px;
+}
+.corps ul.check li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #286fdb;
+    display: inline-block;
+    margin-left: -2em;
+    width: 2em;
+    
 }
 /*row after coloumn*/
 .row-large {
@@ -259,6 +272,7 @@ ul.check i {
     width: 50%;
     height: 13vw;
     float: left;
+    position: relative;
 }
 .description {
     width: 50%;
@@ -272,12 +286,12 @@ ul.check i {
 }
 .logos img {
     width: 100%;
-    height: 100%;
     padding: 20%;
     filter:invert(100%);
-}
-#florida {
-    padding: 47% 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /*team box style*/
 #designit {
